@@ -5,12 +5,12 @@ const Footer = ({ textFooter = "Descrption on footer", titulo1 = "Titulo1", mail
 	return (
 		<>
 			<p>{textFooter}</p>
-			<ul>
-				<li>
+			<ul className="ul_footer_flex">
+				<li className="list_footer">
 					<h3>{titulo1}</h3>
 					<a href="">{mailContact}</a>
 				</li>
-				<li>
+				<li className="list_footer">
 					<h3>{titulo2}</h3>
 					<a href="">{direccion}</a>
 				</li>

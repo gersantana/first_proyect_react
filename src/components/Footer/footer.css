@@ -1,0 +1,12 @@
+.ul_footer_flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+    padding: 0;
+}
+
+.list_footer {
+    list-style: none; 
+
+}

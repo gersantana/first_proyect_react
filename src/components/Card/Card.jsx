@@ -1,9 +1,10 @@
+import "./card.css"
 import PropTypes from "prop-types"
 import Tags from "../Tags/Tags"
 
 const Card = ({img ="Dog Photography", nombre="Dog Name", description="Dog Description", color, raza}) => {
     return(
-        <div className="container_card">
+        <div className="container_body">
             <img src={img} alt="Img" />
             <h2>{nombre}</h2>
             <p>{description}</p>

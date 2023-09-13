@@ -1,0 +1,10 @@
+.container_body {
+    border: solid 1px #0000003d;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+}
