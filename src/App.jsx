@@ -6,14 +6,18 @@ import Header from "./components/Header/Header";
 function App() {
 	return (
 		<>
-			<Header title="Adopta un Perrito" />
+			<header>
+				<Header title="Adopta un Perrito" />
+			</header>
 			<main className="container_cards">
-        <Card/>
-        <Card/>
-        <Card color="dark" raza="showshow"/>
-        <Card color="primary"/>
-      </main>
-			<Footer textFooter="orem ipsum dolor sit amet, consectetur adipisicing elit. Animi culpa fuga dolor consectetur error veniam praesentium quidem, qui ut voluptate? Nihil obcaecati suscipit, commodi totam nisi maiores praesentium eligendi fuga?" />
+				<Card />
+				<Card />
+				<Card color="dark" raza="showshow" />
+				<Card color="primary" />
+			</main>
+			<footer>
+				<Footer textFooter="orem ipsum dolor sit amet, consectetur adipisicing elit. Animi culpa fuga dolor consectetur error veniam praesentium quidem, qui ut voluptate? Nihil obcaecati suscipit, commodi totam nisi maiores praesentium eligendi fuga?" />
+			</footer>
 		</>
 	);
 }

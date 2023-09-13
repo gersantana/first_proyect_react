@@ -1,0 +1,15 @@
+#root {
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	max-width: 1200px;
+	min-height: 100vh;
+    margin: 0 20px;
+}
+
+.container_cards {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}

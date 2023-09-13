@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 const Footer = ({ textFooter = "Descrption on footer", titulo1 = "Titulo1", mailContact = "Puedes Enviarnos un E-mail", titulo2 = "Titulo2", direccion = "Nuestra Direccion es" }) => {
 	return (
-		<footer>
+		<>
 			<p>{textFooter}</p>
 			<ul>
 				<li>
@@ -15,7 +15,7 @@ const Footer = ({ textFooter = "Descrption on footer", titulo1 = "Titulo1", mail
 					<a href="">{direccion}</a>
 				</li>
 			</ul>
-		</footer>
+		</>
 	);
 };
 
