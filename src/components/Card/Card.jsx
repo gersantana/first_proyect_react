@@ -18,7 +18,8 @@ Card.propTypes = {
     nombre: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
     color: PropTypes.string.isRequired,
-    raza: PropTypes.string.isRequired
+    raza: PropTypes.string.isRequired,
+    btn: PropTypes.string.isRequired
 }
 
 export default Card

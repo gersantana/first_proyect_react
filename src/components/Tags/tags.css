@@ -5,12 +5,12 @@
 }
 
 .badge {
-    display: flex;
-    justify-content: space-around;
-    position:relative;
+    /* position:relative; */
+   position:relative;
     bottom: 305px;
     right: 35px;
 }
+
 .btn {
     position:relative;
     right: 63px;

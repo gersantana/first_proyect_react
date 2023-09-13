@@ -16,7 +16,8 @@ const Tags = ({ color = "danger", raza = "Raza", btn ="Boton" }) => {
 
 Tags.propTypes = {
     color: PropsType.string.isRequired,
-    raza: PropsType.string.isRequired
+    raza: PropsType.string.isRequired,
+	btn: PropsType.string.isRequired
 }
 
 export default Tags;
