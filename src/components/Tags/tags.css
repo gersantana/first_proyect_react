@@ -1,0 +1,17 @@
+.container_badge_button{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.badge {
+    display: flex;
+    justify-content: space-around;
+    position:relative;
+    bottom: 305px;
+    right: 35px;
+}
+.btn {
+    position:relative;
+    right: 63px;
+}

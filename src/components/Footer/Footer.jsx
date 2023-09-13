@@ -1,18 +1,18 @@
 import "./footer.css";
 import PropTypes from "prop-types";
 
-const Footer = ({ textFooter = "Descrption on footer", titulo1 = "Titulo1", mailContact = "Puedes Enviarnos un E-mail", titulo2 = "Titulo2", direccion = "Nuestra Direccion es" }) => {
+const Footer = ({ textFooter = "Descrption on footer", titulo1 = "Titulo1", mailContact = "", titulo2 = "Titulo2", direccion = "Nuestra Direccion es" }) => {
 	return (
 		<>
 			<p>{textFooter}</p>
 			<ul className="ul_footer_flex">
 				<li className="list_footer">
-					<h3>{titulo1}</h3>
-					<a href="">{mailContact}</a>
+					<h5>{titulo1}</h5>
+					<a href={mailContact} target="blank">Preciona aqui para enviarnos un E-mail</a>
 				</li>
 				<li className="list_footer">
-					<h3>{titulo2}</h3>
-					<a href="">{direccion}</a>
+					<h5>{titulo2}</h5>
+					<a href={direccion} target="blank">Morandé 707, local 105, 8340252 Santiago, Región Metropolitana</a>
 				</li>
 			</ul>
 		</>

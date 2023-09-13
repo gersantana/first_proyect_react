@@ -1,11 +1,15 @@
+import './tags.css'
 import Badge from "react-bootstrap/Badge";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Button from 'react-bootstrap/Button';
+
 import PropsType from "prop-types"
 
-const Tags = ({ color = "danger", raza = "Raza" }) => {
+const Tags = ({ color = "danger", raza = "Raza", btn ="Boton" }) => {
 	return (
-		<div>
-			<Badge bg={color}>{raza}</Badge>
+		<div className="container_badge_button">
+			<Badge className='badge' bg={color}>{raza}</Badge>
+			<Button className='btn' variant="primary">{btn}</Button>
 		</div>
 	);
 };

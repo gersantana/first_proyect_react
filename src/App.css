@@ -6,6 +6,7 @@
 	max-width: 1200px;
 	min-height: 100vh;
 	padding: 0 20px;
+    background-color: #0000000c;
 }
 
 .container_header{
@@ -21,4 +22,7 @@
 
 .footer_container {
     text-align: center;
+    border-top: 1px solid #00000056;
+    margin-top: 10px;
+    padding-top: 10px;
 }
